@@ -82,6 +82,7 @@
       </PrecompiledHeaderFile>
       <ProgramDataBaseFileName>$(TargetDir)\$(TargetName).pdb</ProgramDataBaseFileName>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningVersion>19.26</WarningVersion>
     </ClCompile>
     <Link>
       <AdditionalOptions>/MAP /MACHINE:x64 /DEBUG /DELAYLOAD:PxFoundationDEBUG_x64.dll</AdditionalOptions>
@@ -126,6 +127,7 @@
       </PrecompiledHeaderFile>
       <ProgramDataBaseFileName>$(TargetDir)\$(TargetName).pdb</ProgramDataBaseFileName>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningVersion>19.26</WarningVersion>
     </ClCompile>
     <Link>
       <AdditionalOptions>/MAP /MACHINE:x64 /DELAYLOAD:PxFoundationCHECKED_x64.dll</AdditionalOptions>
@@ -170,6 +172,7 @@
       </PrecompiledHeaderFile>
       <ProgramDataBaseFileName>$(TargetDir)\$(TargetName).pdb</ProgramDataBaseFileName>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningVersion>19.26</WarningVersion>
     </ClCompile>
     <Link>
       <AdditionalOptions>/MAP /MACHINE:x64 /INCREMENTAL:NO /DEBUG /DELAYLOAD:PxFoundationPROFILE_x64.dll</AdditionalOptions>
@@ -214,6 +217,7 @@
       </PrecompiledHeaderFile>
       <ProgramDataBaseFileName>$(TargetDir)\$(TargetName).pdb</ProgramDataBaseFileName>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningVersion>19.26</WarningVersion>
     </ClCompile>
     <Link>
       <AdditionalOptions>/MAP /MACHINE:x64 /INCREMENTAL:NO /DELAYLOAD:PxFoundation_x64.dll</AdditionalOptions>

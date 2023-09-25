@@ -82,6 +82,7 @@
       </PrecompiledHeaderFile>
       <ProgramDataBaseFileName>$(TargetDir)\$(TargetName).pdb</ProgramDataBaseFileName>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningVersion>19.24</WarningVersion>
     </ClCompile>
     <Link>
       <AdditionalOptions>/MAP /MACHINE:x64 /DELAYLOAD:nvcuda.dll /DELAYLOAD:PxFoundationDEBUG_x64.dll /DELAYLOAD:PxPvdSDKDEBUG_x64.dll /DELAYLOAD:PhysX3CommonDEBUG_x64.dll /DEBUG</AdditionalOptions>
@@ -126,6 +127,7 @@
       </PrecompiledHeaderFile>
       <ProgramDataBaseFileName>$(TargetDir)\$(TargetName).pdb</ProgramDataBaseFileName>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningVersion>19.24</WarningVersion>
     </ClCompile>
     <Link>
       <AdditionalOptions>/MAP /MACHINE:x64 /DELAYLOAD:nvcuda.dll /DELAYLOAD:PxFoundationCHECKED_x64.dll /DELAYLOAD:PxPvdSDKCHECKED_x64.dll /DELAYLOAD:PhysX3CommonCHECKED_x64.dll</AdditionalOptions>
@@ -170,6 +172,7 @@
       </PrecompiledHeaderFile>
       <ProgramDataBaseFileName>$(TargetDir)\$(TargetName).pdb</ProgramDataBaseFileName>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningVersion>19.24</WarningVersion>
     </ClCompile>
     <Link>
       <AdditionalOptions>/MAP /MACHINE:x64 /DELAYLOAD:nvcuda.dll /DELAYLOAD:PxFoundationPROFILE_x64.dll /DELAYLOAD:PxPvdSDKPROFILE_x64.dll /DELAYLOAD:PhysX3CommonPROFILE_x64.dll /INCREMENTAL:NO /DEBUG</AdditionalOptions>
@@ -214,6 +217,7 @@
       </PrecompiledHeaderFile>
       <ProgramDataBaseFileName>$(TargetDir)\$(TargetName).pdb</ProgramDataBaseFileName>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningVersion>19.24</WarningVersion>
     </ClCompile>
     <Link>
       <AdditionalOptions>/MAP /MACHINE:x64 /DELAYLOAD:nvcuda.dll /DELAYLOAD:PxFoundation_x64.dll /DELAYLOAD:PxPvdSDK_x64.dll /DELAYLOAD:PhysX3Common_x64.dll /INCREMENTAL:NO</AdditionalOptions>

@@ -1,0 +1,7 @@
+*.vcxproj.user
+.vs
+x64
+PhysX_3.4/Bin/vc*
+PhysX_3.4/Lib/vc*
+PxShared/bin/vc*
+PxShared/lib/vc*
