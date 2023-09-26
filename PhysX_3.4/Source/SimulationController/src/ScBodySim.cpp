@@ -544,7 +544,10 @@ void Sc::BodySim::putToSleep()
 	if (sd)
 	{
 		const VelocityMod* vm = sd->getVelocityModData();
-		PX_ASSERT(vm->linearPerSec.isZero() && vm->linearPerStep.isZero() && vm->angularPerSec.isZero() && vm->angularPerStep.isZero());
+		if (vm)
+		{
+			PX_ASSERT(vm->linearPerSec.isZero() && vm->linearPerStep.isZero() && vm->angularPerSec.isZero() && vm->angularPerStep.isZero());
+		}
 	}
 #endif
 
